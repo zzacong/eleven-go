@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "6a2d1193-1dc6-42ab-b855-6c74a2c6c95a",
+    "colId": "acd7d1d6-fc12-4bf0-9a43-1458857df358",
+    "containerId": "",
+    "name": "Get employees",
+    "url": "http://localhost:8000/employee",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-02T08:59:20.956Z",
+    "modified": "2022-08-02T09:00:42.753Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3c22989a-5c02-4fe8-8344-a5f918e68c34",
+    "colId": "acd7d1d6-fc12-4bf0-9a43-1458857df358",
+    "containerId": "",
+    "name": "Create employee",
+    "url": "http://localhost:8000/employee",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-02T09:15:12.840Z",
+    "modified": "2022-08-02T09:15:52.867Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"John Doe\",\n  \"salary\": 60000,\n  \"age\": 22\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "86a0f54e-1fa9-4db6-96f8-0f95714a8a02",
+    "colId": "acd7d1d6-fc12-4bf0-9a43-1458857df358",
+    "containerId": "",
+    "name": "Update employee",
+    "url": "http://localhost:8000/employee/62e8eb534d641d76723f9c1d",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-08-02T09:28:17.111Z",
+    "modified": "2022-08-02T09:29:22.966Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Alice Smith\",\n  \"salary\": 60000,\n  \"age\": 22\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9a2660de-6bc9-4ae1-bd7c-4833cbb082b1",
+    "colId": "acd7d1d6-fc12-4bf0-9a43-1458857df358",
+    "containerId": "",
+    "name": "Delete employee",
+    "url": "http://localhost:8000/employee/62e8eb534d641d76723f9c1d",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2022-08-02T09:34:41.572Z",
+    "modified": "2022-08-02T09:34:54.293Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
