@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "8bb0e32f-75fd-43f9-a4ae-5a478c908914",
+    "colId": "96a22a9f-7c3c-46a2-ae00-795e38d82f0b",
+    "containerId": "",
+    "name": "Get movies",
+    "url": "http://localhost:8000/movies",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-02T07:57:41.922Z",
+    "modified": "2022-08-02T07:57:41.922Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "10ec883b-556a-4bd9-bbc8-e6dbb4b1917b",
+    "colId": "96a22a9f-7c3c-46a2-ae00-795e38d82f0b",
+    "containerId": "",
+    "name": "Get a movie",
+    "url": "http://localhost:8000/movies/1",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-08-02T07:57:41.923Z",
+    "modified": "2022-08-02T07:57:41.923Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "32e37a56-fb56-46a1-954f-a24f0f0a9911",
+    "colId": "96a22a9f-7c3c-46a2-ae00-795e38d82f0b",
+    "containerId": "",
+    "name": "Create a movie",
+    "url": "http://localhost:8000/movies",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-08-02T07:57:41.924Z",
+    "modified": "2022-08-02T07:57:41.924Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"isbn\": \"123612\",\n  \"title\": \"Casino Royale\",\n  \"director\": {\n    \"firstName\": \"James\",\n    \"lastName\": \"Bonds\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "75f1cf10-2889-4406-84f1-b4ba4d3474d0",
+    "colId": "96a22a9f-7c3c-46a2-ae00-795e38d82f0b",
+    "containerId": "",
+    "name": "Update a movie",
+    "url": "http://localhost:8000/movies/98081",
+    "method": "PUT",
+    "sortNum": 40000,
+    "created": "2022-08-02T07:57:41.925Z",
+    "modified": "2022-08-02T07:57:41.925Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"isbn\": \"123612\",\n  \"title\": \"Casino s\",\n  \"director\": {\n    \"firstName\": \"James\",\n    \"lastName\": \"Bond\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4f0790b7-6dbf-4266-862a-9724380eab33",
+    "colId": "96a22a9f-7c3c-46a2-ae00-795e38d82f0b",
+    "containerId": "",
+    "name": "Delete a movie",
+    "url": "http://localhost:8000/movies/98081",
+    "method": "DELETE",
+    "sortNum": 50000,
+    "created": "2022-08-02T07:57:41.926Z",
+    "modified": "2022-08-02T07:57:41.926Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "b38e40e4-8f4f-473a-830c-96824c5394ac",
+    "colId": "0a221dc2-b1c9-49c1-aaad-c3c9800d2412",
+    "containerId": "",
+    "name": "Get all books",
+    "url": "http://localhost:8000/book",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-02T07:56:44.753Z",
+    "modified": "2022-08-02T07:56:44.753Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d24387c9-070b-41be-8f7b-b5bf16c45e3a",
+    "colId": "0a221dc2-b1c9-49c1-aaad-c3c9800d2412",
+    "containerId": "",
+    "name": "Get a book",
+    "url": "http://localhost:8000/book/3",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-02T07:56:44.755Z",
+    "modified": "2022-08-02T07:56:44.755Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "aa4a80c7-4461-4fda-af60-717d8ff3069a",
+    "colId": "0a221dc2-b1c9-49c1-aaad-c3c9800d2412",
+    "containerId": "",
+    "name": "Delete a book",
+    "url": "http://localhost:8000/book/6",
+    "method": "DELETE",
+    "sortNum": 17500,
+    "created": "2022-08-02T07:56:44.756Z",
+    "modified": "2022-08-02T07:56:44.756Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d486867c-e6c1-428b-b371-5bb0470401bb",
+    "colId": "0a221dc2-b1c9-49c1-aaad-c3c9800d2412",
+    "containerId": "",
+    "name": "Create a book",
+    "url": "http://localhost:8000/book",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-02T07:56:44.757Z",
+    "modified": "2022-08-02T07:56:44.757Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Apple tree\",\n  \"author\": \"John Doe\",\n  \"publication\": \"Star News\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5c973414-0aa1-446d-b79f-7e3bc07ed5ed",
+    "colId": "0a221dc2-b1c9-49c1-aaad-c3c9800d2412",
+    "containerId": "",
+    "name": "Update a book",
+    "url": "http://localhost:8000/book/2",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-08-02T07:56:44.758Z",
+    "modified": "2022-08-02T07:56:44.758Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Orange tree\",\n  \"author\": \"John Doe\",\n  \"publication\": \"Star News\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
